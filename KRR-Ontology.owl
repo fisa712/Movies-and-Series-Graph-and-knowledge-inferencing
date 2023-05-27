@@ -1,0 +1,429 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#"
+     xml:base="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#hasCast -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#hasCast">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#NetflixMovies"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Actor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#hasCountry -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#hasCountry">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#NetflixMovies"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Country"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#hasDirector -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#hasDirector">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#NetflixMovies"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Director"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#hasDuration -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#hasDuration">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#NetflixMovies"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Duration"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#hasListedin -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#hasListedin">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#NetflixMovies"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Listedin"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#hasRating -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#hasRating">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#NetflixMovies"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Rating"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#hasReleasedin -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#hasReleasedin">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#NetflixMovies"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Releasedyr"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#hasTitle -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#hasTitle">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#NetflixMovies"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Title"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#isActor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#isActor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#NetflixMovies"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#isCastof -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#isCastof">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#NetflixMovies"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#actor-name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#actor-name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Actor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#releasedYear -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#releasedYear">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Releasedyr"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#timeDuration -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#timeDuration">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Duration"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Actor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Actor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#NetflixMovies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Categories -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Categories"/>
+    
+
+
+    <!-- http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Country -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Country">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#NetflixMovies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Director -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Director">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#NetflixMovies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Documentaries -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Documentaries">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Categories"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Dramas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Dramas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Categories"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Duration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Duration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#NetflixMovies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#IndependentMovies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#IndependentMovies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Categories"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#InternationalMovies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#InternationalMovies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Categories"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Listedin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Listedin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#NetflixMovies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Movies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Movies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#NetflixMovies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#NetflixMovies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#NetflixMovies"/>
+    
+
+
+    <!-- http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Rating -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Rating">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#NetflixMovies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Releasedyr -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Releasedyr">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#NetflixMovies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Standup -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Standup">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Categories"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Title -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Title">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#NetflixMovies"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Documentaries -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Documentaries">
+        <rdf:type rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Documentaries"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Dramas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Dramas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Dramas"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#IndependentMovies -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#IndependentMovies">
+        <rdf:type rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#IndependentMovies"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#InternationalMovie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#InternationalMovie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#InternationalMovies"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Movie1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Movie1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#NetflixMovies"/>
+        <hasCast rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Vanessa"/>
+        <hasDirector rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Robert_Cullen"/>
+        <hasDuration rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#90"/>
+        <hasListedin rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Documentaries"/>
+        <hasRating rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#PG_13"/>
+        <hasReleasedin rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#2017"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#PG_13 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#PG_13">
+        <rdf:type rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Rating"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Robert_Cullen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Robert_Cullen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Director"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Standup -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Standup">
+        <rdf:type rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Standup"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Vanessa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Vanessa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#2017 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#2017">
+        <rdf:type rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Releasedyr"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#90 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#90">
+        <rdf:type rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Duration"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#My_Little_Pony:_A_New_Generation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#My_Little_Pony:_A_New_Generation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Title"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Actor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Director"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Duration"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Listedin"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Movies"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Rating"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Releasedyr"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/umeri/ontologies/2021/11/ProjectOntology#Title"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
